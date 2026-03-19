@@ -1,0 +1,8 @@
+name: BlobMenu
+version: ${project.version}
+main: io.github.anjoismysign.blobmenu.BlobMenu
+api-version: ${minecraft.version}
+load: POSTWORLD
+depend:
+  - BlobLib
+authors: [ anjoismysign ]
