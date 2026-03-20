@@ -56,7 +56,7 @@ public record PlayerHandler(Player player) {
             }
             player.getInventory().setItem(slot,
                     translatableItem.localize(player.getLocale()).getClone());
-            playerMenu.menuItems().add(new PlayerMenuItem(identifier, slot, menuItem.getCommand(), menuItem.getCommandSender()));
+            playerMenu.menuItems().add(new PlayerMenuItem(identifier, slot, menuItem.getCommand()));
         });
         BlobMenu.getInstance().add(player, playerMenu);
     }

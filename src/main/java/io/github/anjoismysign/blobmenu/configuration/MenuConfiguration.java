@@ -1,7 +1,7 @@
 package io.github.anjoismysign.blobmenu.configuration;
 
+import io.github.anjoismysign.bloblib.entities.CommandData;
 import io.github.anjoismysign.blobmenu.BlobMenu;
-import io.github.anjoismysign.blobmenu.entity.MenuItemCommandSender;
 import io.github.anjoismysign.blobmenu.entity.PermissionMode;
 
 import java.util.List;
@@ -44,8 +44,7 @@ public class MenuConfiguration {
         private int slot;
         private String permission;
         private PermissionMode permissionMode;
-        private String command;
-        private MenuItemCommandSender commandSender;
+        private CommandData command;
 
         public String getTranslatableItem() {
             return translatableItem;
@@ -79,20 +78,12 @@ public class MenuConfiguration {
             this.permissionMode = permissionMode;
         }
 
-        public String getCommand() {
+        public CommandData getCommand() {
             return command;
         }
 
-        public void setCommand(String command) {
+        public void setCommand(CommandData command) {
             this.command = command;
-        }
-
-        public MenuItemCommandSender getCommandSender() {
-            return commandSender;
-        }
-
-        public void setCommandSender(MenuItemCommandSender commandSender) {
-            this.commandSender = commandSender;
         }
     }
 }

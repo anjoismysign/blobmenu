@@ -1,6 +1,7 @@
 package io.github.anjoismysign.blobmenu;
 
 import io.github.anjoismysign.bloblib.managers.BlobPlugin;
+import io.github.anjoismysign.blobmenu.command.BlobMenuCommand;
 import io.github.anjoismysign.blobmenu.director.MenuManagerDirector;
 import io.github.anjoismysign.blobmenu.entity.PlayerMenu;
 import io.github.anjoismysign.blobmenu.listener.MenuListener;
@@ -26,6 +27,7 @@ public final class BlobMenu extends BlobPlugin implements Listener{
     public void onEnable() {
         instance = this;
         director = new MenuManagerDirector(this);
+        BlobMenuCommand.INSTANCE.load();
         Bukkit.getPluginManager().registerEvents(new MenuListener(), this);
     }
 

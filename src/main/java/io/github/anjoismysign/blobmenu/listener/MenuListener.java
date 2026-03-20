@@ -54,7 +54,7 @@ public class MenuListener implements Listener {
             }
             event.setCancelled(true);
             event.setCursor(null);
-            menuItem.apply(player);
+            menuItem.commandData().apply(player);
             return;
         }
     }
@@ -102,7 +102,7 @@ public class MenuListener implements Listener {
                 continue;
             }
             event.setCancelled(true);
-            menuItem.apply(player);
+            menuItem.commandData().apply(player);
             return;
         }
     }

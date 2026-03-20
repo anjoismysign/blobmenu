@@ -6,3 +6,6 @@ load: POSTWORLD
 depend:
   - BlobLib
 authors: [ anjoismysign ]
+commands:
+  blobmenu:
+    description: info blobmenu
