@@ -3,6 +3,7 @@ package io.github.anjoismysign.blobmenu.listener;
 import io.github.anjoismysign.bloblib.entities.translatable.TranslatableItem;
 import io.github.anjoismysign.bloblib.events.ProfileLoadEvent;
 import io.github.anjoismysign.blobmenu.BlobMenu;
+import io.github.anjoismysign.blobmenu.configuration.MenuConfiguration;
 import io.github.anjoismysign.blobmenu.entity.PlayerHandler;
 import io.github.anjoismysign.blobmenu.entity.PlayerMenu;
 import io.github.anjoismysign.blobmenu.entity.PlayerMenuItem;
@@ -34,7 +35,7 @@ public class MenuListener implements Listener {
                 return;
             }
             new PlayerHandler(player).load();
-        }, 20);
+        }, MenuConfiguration.getInstance().getLoadDelay());
     }
 
     @EventHandler
