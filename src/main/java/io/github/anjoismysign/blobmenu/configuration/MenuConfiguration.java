@@ -1,6 +1,6 @@
 package io.github.anjoismysign.blobmenu.configuration;
 
-import io.github.anjoismysign.bloblib.entities.CommandData;
+import io.github.anjoismysign.bloblib.command.CommandData;
 import io.github.anjoismysign.blobmenu.BlobMenu;
 import io.github.anjoismysign.blobmenu.entity.PermissionMode;
 
