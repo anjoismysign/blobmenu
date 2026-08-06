@@ -1,6 +1,6 @@
 package io.github.anjoismysign.blobmenu.entity;
 
-import io.github.anjoismysign.bloblib.entities.translatable.TranslatableItem;
+import io.github.anjoismysign.bloblib.translatable.TranslatableItem;
 import io.github.anjoismysign.blobmenu.BlobMenu;
 import io.github.anjoismysign.blobmenu.configuration.MenuConfiguration;
 import org.bukkit.entity.Player;

@@ -1,12 +1,12 @@
 package io.github.anjoismysign.blobmenu.listener;
 
-import io.github.anjoismysign.bloblib.entities.translatable.TranslatableItem;
-import io.github.anjoismysign.bloblib.events.ProfileLoadEvent;
+import io.github.anjoismysign.bloblib.translatable.TranslatableItem;
 import io.github.anjoismysign.blobmenu.BlobMenu;
 import io.github.anjoismysign.blobmenu.configuration.MenuConfiguration;
 import io.github.anjoismysign.blobmenu.entity.PlayerHandler;
 import io.github.anjoismysign.blobmenu.entity.PlayerMenu;
 import io.github.anjoismysign.blobmenu.entity.PlayerMenuItem;
+import net.milkbowl.vault.profile.ProfileLoadEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

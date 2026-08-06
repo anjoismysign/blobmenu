@@ -1,6 +1,6 @@
 package io.github.anjoismysign.blobmenu.director;
 
-import io.github.anjoismysign.bloblib.entities.GenericManagerDirector;
+import io.github.anjoismysign.bloblib.manager.GenericManagerDirector;
 import io.github.anjoismysign.blobmenu.BlobMenu;
 import io.github.anjoismysign.blobmenu.director.manager.MenuConfigurationManager;
 import io.github.anjoismysign.blobmenu.entity.PlayerHandler;
